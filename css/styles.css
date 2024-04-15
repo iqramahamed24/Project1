@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+#pasta2-img, #pasta3-img {
+    display: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.recipe {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.meal-images {
+    width: 200px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.meal-img img {
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.meal-img img:hover {
+    transform: scale(1.00);
+}
+
+.ingredients-list {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.ingredients-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ingredients-list li {
+    margin-bottom: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    padding: 10px 20px;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

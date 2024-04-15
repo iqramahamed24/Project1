@@ -1,0 +1,51 @@
+Pasta Recipe Finder
+Description
+
+Pasta Recipe Finder is a web application that allows users to search for various pasta recipes, view ingredients, and generate random pasta dishes. The application fetches data from The Meal DB API to provide a wide range of pasta recipes.
+Features
+
+    Search for pasta recipes by entering ingredients
+    View ingredients for specific pasta dishes
+    Generate random pasta dishes
+    Toggle visibility of pasta images
+
+
+Installation
+
+    Clone the repository:
+
+    bash
+
+    git clone https://github.com/iqramahamed24/Project1.git
+
+    Open the index.html file in your web browser.
+
+Usage
+
+    Enter ingredients in the search box and click "Search" to find pasta recipes containing those ingredients.
+    Click on the "Generate random pasta" button to see a randomly selected pasta dish.
+    Click on pasta images to toggle their visibility.
+    Click on the "Show Ingredients" button to display the ingredients for a specific pasta dish.
+
+Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+    Fork the repository
+    Create your feature branch (git checkout -b feature/your-feature)
+    Commit your changes (git commit -am 'Add your feature')
+    Push to the branch (git push origin feature/your-feature)
+    Create a new Pull Request
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+Acknowledgements
+
+Technologies Used
+
+    HTML
+    CSS
+    JavaScript
+    The Meal DB API
+
