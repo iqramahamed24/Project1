@@ -1,51 +1,35 @@
-Pasta Recipe Finder
-Description
+# Chef Recommendations
 
-Pasta Recipe Finder is a web application that allows users to search for various pasta recipes, view ingredients, and generate random pasta dishes. The application fetches data from The Meal DB API to provide a wide range of pasta recipes.
-Features
+Chef Recommendations is a web application that allows users to search for meals based on categories and view their details, including ingredients.
 
-    Search for pasta recipes by entering ingredients
-    View ingredients for specific pasta dishes
-    Generate random pasta dishes
-    Toggle visibility of pasta images
+## Features
 
+- Search for meals by category.
+- View meal images and details.
+- Toggle display of meal ingredients.
 
-Installation
+## Usage
 
-    Clone the repository:
+1. Clone this repository to your local machine.
+2. Open the `index.html` file in your web browser.
+3. Enter a category in the search box and click the "Search" button to find meals.
+4. Click on a meal image to view its details and ingredients.
+5. Click the "Show Ingredients" button to toggle the display of ingredients.
 
-    bash
+## Technologies Used
 
-    git clone https://github.com/iqramahamed24/Project1.git
+- HTML
+- CSS
+- JavaScript
 
-    Open the index.html file in your web browser.
+## API Used
 
-Usage
+- TheMealDB API (https://www.themealdb.com/api/json/v1/1)
 
-    Enter ingredients in the search box and click "Search" to find pasta recipes containing those ingredients.
-    Click on the "Generate random pasta" button to see a randomly selected pasta dish.
-    Click on pasta images to toggle their visibility.
-    Click on the "Show Ingredients" button to display the ingredients for a specific pasta dish.
+## Credits
 
-Contributing
+This project was created by [Iqra Mahamed].
 
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+## License
 
-    Fork the repository
-    Create your feature branch (git checkout -b feature/your-feature)
-    Commit your changes (git commit -am 'Add your feature')
-    Push to the branch (git push origin feature/your-feature)
-    Create a new Pull Request
-
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-Acknowledgements
-
-Technologies Used
-
-    HTML
-    CSS
-    JavaScript
-    The Meal DB API
-
+This project is licensed under the [MIT License](LICENSE).

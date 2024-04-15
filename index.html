@@ -1,49 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Different Types of Pasta</title>
-    <link rel="icon" href="data: ,">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chef Recommendations</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:,">
 </head>
 <body>
-    <div class="container">
-        <div class="recipe">
-           <div class="find-pasta">
-            <h2 class="title">Find Ingredients</h2>
-            <div class="meal-box-search">
-                <input type="text" class="find-content" placeholder="Enter Ingredients"
-                id="search-input">
-                <button class="search-btn btn" id="search-btn">Search</button>
-            </div>
-           </div> 
-           <div class="meal-images">
-            <div class="meal-img" id="pasta1-img">
-                <img src="img/fettucine.jpg" alt="Fettuccine">
-            </div>
-            <div class="meal-img" id="pasta2-img">
-                <img src="img/garlic pasta.jpeg" alt="Garlic">
-            </div>
-            <div class="meal-img" id="pasta3-img">
-               <img src="img/lasagna.webp" alt="Lasagna">
-            </div>
-         </div>
-         <button class="random-pasta-btn btn" id="random-pasta-btn">Generate random pasta</button>
-          <button class="show-ingredients-btn btn" id="show-ingredients-btn">Show Ingredients</button>
-           <div class="ingredients-list hidden" id="ingredients-list">
-            <h3>Ingredients For Pasta Fettuccine</h3>
-            <ul>
-                <li>Fettuccine pasta</li>
-                <li>Heavy cream</li>
-                <li>Parmesan cheese</li>
-                <li>Garlic and butter</li>
-                <li>Seasonings</li>
-                <li>Parseley and coriander</li>
-            </ul>
-        </div>
+  <div class="container">
+    <div class="recipe">
+      <h2 class="title">Find a Meal</h2>
+      <div class="meal-box-search">
+        <input type="text" class="find-content" placeholder="Enter a category" id="search-input">
+        <button class="search-btn btn" id="search-btn">Search</button>
+      </div>
     </div>
-    <script src="js/index.js"></script>
-    
+    <div id="default-image">
+      <img src="img/Chef_cover.webp" alt="Chef Image">
+    </div>
+    <div class="meal-images hidden" id="meal-images"></div>
+    <button class="show-ingredients-btn btn hidden" id="show-ingredients-btn">Show Ingredients</button>
+    <div class="ingredients-list hidden" id="ingredients-list"></div>
+  </div>
+
+  <script src="js/index.js"></script>
 </body>
 </html>
